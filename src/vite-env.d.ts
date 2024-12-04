@@ -1,6 +1,6 @@
 /// <reference types="vite/client" />
 
 interface Window {
-  // expose in the `electron/preload/index.ts`
+  // expose in the `electron/preload/index.tsx`
   ipcRenderer: import('electron').IpcRenderer
 }

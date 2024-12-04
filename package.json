@@ -32,6 +32,7 @@
     "node-rdpjs": "^0.3.0",
     "node-telnet-client": "^1.0.0-8",
     "react-i18next": "^15.1.1",
+    "react-redux": "^9.1.2",
     "react-router": "^7.0.1",
     "react-router-dom": "^7.0.1",
     "redux": "^5.0.1",

@@ -47,14 +47,9 @@ async function createWindow() {
   win = new BrowserWindow({
     title: 'Dream Command',
     icon: path.join(process.env.VITE_PUBLIC, 'favicon.ico'),
+    frame: true,
     webPreferences: {
-      preload,
-      // Warning: Enable nodeIntegration and disable contextIsolation is not secure in production
-      // nodeIntegration: true,
-
-      // Consider using contextBridge.exposeInMainWorld
-      // Read more on https://www.electronjs.org/docs/latest/tutorial/context-isolation
-      // contextIsolation: false, y
+      preload
     },
   })
 
